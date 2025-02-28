@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Sneaker Collection Grid */
+.sneaker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Sneaker Card */
+.sneaker-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.sneaker-card:hover {
+  transform: translateY(-5px);
+}
+
+.sneaker-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.sneaker-card .content {
+  padding: 15px;
+  text-align: center;
+}
+
+.sneaker-card h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.sneaker-card p {
+  color: #555;
+}
+
+.sneaker-card button {
+  background: #ff4500;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sneaker-card button:hover {
+  background: #e63e00;
+}
