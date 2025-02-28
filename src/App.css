@@ -6,16 +6,23 @@ body {
   padding: 0;
 }
 
+
 /* Header Styles */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: white;
+  background: #ff4500; /* Changed background color to red */
   padding: 1rem 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
+
+/* Optional: Adjust text color if needed */
+header h1 {
+  color: white; /* Make the text color white for better visibility */
+}
+
 
 /* Sneaker Collection Grid */
 .sneaker-grid {
