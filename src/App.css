@@ -24,6 +24,13 @@ header h1 {
   font-size: medium;
 }
 
+.header-logo {
+  width: 24px; /* Adjust the size of the image */
+  height: 24px;
+  object-fit: contain; /* Ensure the full image is shown */
+}
+
+
 
 /* Sneaker Collection Grid */
 .sneaker-grid {

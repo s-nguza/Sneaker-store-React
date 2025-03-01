@@ -5,20 +5,27 @@ import { ShoppingCart, Search } from "lucide-react";
 
 const SneakerStore = () => {
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="top part">
       {/* Header */}
       <header className="flex justify-between items-center bg-white p-4 shadow-md rounded-lg">
-        <h1 className="text-2xl font-bold">Sneaker Haven</h1>
-        <div className="flex gap-4">
+        <div className="flex items-center gap-2">
+          <h1 className="name text-white">Sneaker Haven</h1>
+          <img 
+            src="/images/logo.jpg"  
+            alt="Bag Icon" 
+            className="header-logo"
+          />
+        </div>
+        <div className="button">
           <Button variant="ghost">
-            <Search className="w-5 h-5" />
+            <Search className="search-button" />
           </Button>
           <Button variant="ghost">
-            <ShoppingCart className="w-5 h-5" />
+            <ShoppingCart className="shopping-cart" />
           </Button>
         </div>
       </header>
-      
+
       {/* Sneaker Collection */}
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
         {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
