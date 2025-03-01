@@ -9,12 +9,12 @@ const SneakerStore = () => {
       {/* Header */}
       <header className="flex justify-between items-center bg-white p-4 shadow-md rounded-lg">
         <div className="flex items-center gap-2">
-          <h1 className="name text-white">Sneaker Haven</h1>
-          <img 
+          <h1 className="name text-white"><img 
             src="/images/logo.jpg"  
             alt="Bag Icon" 
             className="header-logo"
-          />
+          />Sneaker Street</h1>
+          
         </div>
         <div className="button">
           <Button variant="ghost">
